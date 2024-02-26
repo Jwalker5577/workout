@@ -1,0 +1,82 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: white;
+}
+
+table{
+    width: 80%;
+    margin:40px auto;
+    background:darkseagreen;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr {
+    background-color: white;
+}
+
+input[type="text"],input[type="date"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor:pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background:darkseagreen ;
+}
+
+input[type="reset"]:hover{
+    background:darkseagreen;
+}
+
+button{
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor:pointer;
+    outline: none;
+
+}
+
+button:hover{
+    background:darkseagreen;
+}
+
+
+h1{
+    text-align: center;
+}

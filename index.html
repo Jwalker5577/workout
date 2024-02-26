@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <h1>WORKOUT TRACKER</h1>
+<table>
+<tr>
+<td>
+    <form autocomplete="off" onsubmit="onFormSubmit()">
+        <div>
+            <label for="workout">Workout</label>
+            <input type="text" name="workout" id="workout"> 
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date"> 
+        </div>
+        <div>
+            <label for="Reps">Reps</label>
+            <input type="text" name="reps" id="reps"> 
+        </div>
+        <div class="form_action--button">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+    <td>
+        <table class="list" id="woList">
+            <thead>
+                <tr>
+                    <th>Workout</th>
+                    <th>Date</th>
+                    <th>Reps</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </td>
+</td>
+</tr>
+</table>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
